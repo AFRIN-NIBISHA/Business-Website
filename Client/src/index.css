@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+  
+  /* Theme-specific palette mappings */
+  --color-bg-base: var(--bg-color);
+  --color-text-base: var(--text-color);
+  --color-card-base: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-section-base: var(--section-bg);
+  --color-nav-base: var(--nav-bg);
+  --color-btn-sec: var(--btn-secondary);
+  --color-btn-sec-hover: var(--btn-secondary-hover);
+  --color-text-mut: var(--text-muted);
+
+  /* Hero Section dynamic theme mappings */
+  --color-hero-overlay-from: var(--hero-overlay-from);
+  --color-hero-overlay-via: var(--hero-overlay-via);
+  --color-hero-overlay-to: var(--hero-overlay-to);
+  --color-hero-text: var(--hero-text);
+  --color-hero-text-muted: var(--hero-text-muted);
+  --color-hero-card-bg: var(--hero-card-bg);
+  --color-hero-card-border: var(--hero-card-border);
+
+  /* Gold accents */
+  --color-primary-50: #fefcf0;
+  --color-primary-100: #fdf7d5;
+  --color-primary-200: #fbeca2;
+  --color-primary-300: #f8da64;
+  --color-primary-400: #f4c231;
+  --color-primary-500: #eab308;
+  --color-primary-600: #ca8a04;
+  --color-primary-700: #a16207;
+  --color-primary-800: #854d0e;
+  --color-primary-900: #713f12;
+  --color-primary-950: #422006;
+}
+
+:root {
+  /* Light Theme variables by default */
+  --bg-color: #f8fafc; /* Slate 50 */
+  --text-color: #0f172a; /* Slate 900 */
+  --card-bg: #ffffff;
+  --card-border: rgba(226, 232, 240, 0.8); /* Slate 200 */
+  --section-bg: #f1f5f9; /* Slate 100 */
+  --nav-bg: rgba(248, 250, 252, 0.85); /* Translucent Slate 50 */
+  --btn-secondary: #e2e8f0; /* Slate 200 */
+  --btn-secondary-hover: #cbd5e1; /* Slate 300 */
+  --text-muted: #475569; /* Slate 600 */
+
+  /* Hero Section variables in Light Mode */
+  --hero-overlay-from: rgba(248, 250, 252, 0.95);
+  --hero-overlay-via: rgba(248, 250, 252, 0.85);
+  --hero-overlay-to: rgba(248, 250, 252, 0.3);
+  --hero-text: #0f172a;
+  --hero-text-muted: #334155;
+  --hero-card-bg: rgba(255, 255, 255, 0.85);
+  --hero-card-border: rgba(226, 232, 240, 0.9);
+  
+  scroll-behavior: smooth;
+}
+
+/* Dark Theme overrides when .dark class is added to html/body */
+.dark {
+  --bg-color: #0b0f19;
+  --text-color: #f1f5f9;
+  --card-bg: #0f1524;
+  --card-border: rgba(30, 41, 59, 0.4);
+  --section-bg: #0a0e17;
+  --nav-bg: rgba(11, 15, 25, 0.85);
+  --btn-secondary: #1e293b;
+  --btn-secondary-hover: #334155;
+  --text-muted: #94a3b8;
+
+  /* Hero Section variables in Dark Mode */
+  --hero-overlay-from: rgba(11, 15, 25, 0.95);
+  --hero-overlay-via: rgba(11, 15, 25, 0.85);
+  --hero-overlay-to: rgba(11, 15, 25, 0.3);
+  --hero-text: #ffffff;
+  --hero-text-muted: #cbd5e1;
+  --hero-card-bg: rgba(15, 22, 38, 0.8);
+  --hero-card-border: rgba(30, 41, 59, 0.5);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--btn-sec);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ca8a04;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-effect::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 20%,
+    rgba(255, 255, 255, 0.1) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: shimmer 2.5s infinite;
+  content: '';
+}
