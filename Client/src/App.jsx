@@ -12,7 +12,7 @@ import Reveal from './components/Reveal'
 
 function App() {
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('theme') || 'dark'
+    return localStorage.getItem('theme') || 'light'
   })
 
   // Synchronize theme state with DOM classList and localStorage
