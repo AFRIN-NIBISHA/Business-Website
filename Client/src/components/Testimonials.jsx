@@ -38,7 +38,7 @@ export default function Testimonials() {
   ]
 
   return (
-    <section id="testimonials" className="py-24 bg-bg-base relative font-sans transition-colors duration-300">
+    <section id="testimonials" className="py-24 bg-bg-base relative font-sans transition-colors duration-300 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

@@ -64,7 +64,7 @@ export default function Services() {
   ]
 
   return (
-    <section id="services" className="py-24 bg-bg-base relative font-sans transition-colors duration-300">
+    <section id="services" className="py-24 bg-bg-base relative font-sans transition-colors duration-300 overflow-hidden">
       {/* Background radial highlight */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-yellow-500/5 rounded-full blur-3xl pointer-events-none"></div>
 

@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-bg-base text-text-base selection:bg-yellow-500 selection:text-slate-900 transition-colors duration-300">
+    <div className="min-h-screen flex flex-col bg-bg-base text-text-base selection:bg-yellow-500 selection:text-slate-900 transition-colors duration-300 overflow-x-hidden">
       {/* Sticky Responsive Header with Theme Toggle props */}
       <Navbar theme={theme} toggleTheme={toggleTheme} />
 
