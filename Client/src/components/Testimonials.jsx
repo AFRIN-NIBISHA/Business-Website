@@ -6,7 +6,7 @@ export default function Testimonials() {
     {
       name: 'Ramesh Kumar',
       role: 'Homeowner',
-      location: 'Anna Nagar, Chennai',
+      location: 'Nagercoil, Tamil Nadu',
       projectType: 'House Construction',
       rating: 5,
       comment: 'Franklin constructed our dream villa from scratch. They delivered exactly on the promised structural specifications. Their transparent pricing list was very clean, showing all materials costs. I highly recommend them!'
@@ -14,7 +14,7 @@ export default function Testimonials() {
     {
       name: 'Aishwarya Sen',
       role: 'Apartment Owner',
-      location: 'Adyar, Chennai',
+      location: 'Madurai, Tamil Nadu',
       projectType: 'Interior Woodwork',
       rating: 5,
       comment: 'We hired Franklin for modular kitchen cabinets and wooden wardrobes. The wood finish is sleek and the carpenters worked very quickly. Every small detail, like soft-close drawer hinges, is perfect.'
@@ -22,7 +22,7 @@ export default function Testimonials() {
     {
       name: 'Dr. Vignesh Prasad',
       role: 'Clinic Director',
-      location: 'Velachery, Chennai',
+      location: 'Tirunelveli, Tamil Nadu',
       projectType: 'Commercial Building Renovation',
       rating: 5,
       comment: 'We renovated our dental clinic building. Franklin handled the glass facade installation, flooring and interior layout adjustments. They completed the work in 3 weeks, allowing us to reopen on schedule.'
@@ -30,7 +30,7 @@ export default function Testimonials() {
     {
       name: 'Suresh & Priya',
       role: 'Homeowners',
-      location: 'ECR, Chennai',
+      location: 'Ovari, Tamil Nadu',
       projectType: 'Duplex Expansion',
       rating: 5,
       comment: 'Adding a second floor to our house was a massive worry, but Franklin’s structural engineering team guided us thoroughly. The pillars are super strong, and they designed an amazing balcony deck.'
@@ -48,7 +48,7 @@ export default function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-text-mut text-base">
-            Customer satisfaction is our ultimate reward. Read testimonies of our services from families and businesses across Chennai.
+            Customer satisfaction is our ultimate reward. Read testimonies of our services from families and businesses across Southern Tamil Nadu.
           </p>
         </div>
 

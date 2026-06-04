@@ -12,7 +12,7 @@ export default function Projects() {
       id: 1,
       title: 'Shalom Residency - Final Facade',
       category: 'Construction',
-      location: 'Chennai, Tamil Nadu',
+      location: 'Nagercoil, Tamil Nadu',
       image: '/user_project_8.jpg',
       description: 'The final completed facade of a luxury residential bungalow, complete with a glass-enclosed stairwell tower, modern paint coatings, and grand entrance arch.'
     },
@@ -20,7 +20,7 @@ export default function Projects() {
       id: 2,
       title: 'Shalom Residency - House Warming',
       category: 'Construction',
-      location: 'Chennai, Tamil Nadu',
+      location: 'Nagercoil, Tamil Nadu',
       image: '/user_project_9.jpg',
       description: 'Completed multi-story premium home during the house warming ceremony, showcasing structural finishing, structural columns, and modern elevation design.'
     },
@@ -28,7 +28,7 @@ export default function Projects() {
       id: 3,
       title: 'Structural Scaffolding Phase',
       category: 'Construction',
-      location: 'Chennai, Tamil Nadu',
+      location: 'Madurai, Tamil Nadu',
       image: '/user_project_1.jpg',
       description: 'Site logistics and scaffold building for plastering works on the grand residential duplex elevation.'
     },
@@ -36,7 +36,7 @@ export default function Projects() {
       id: 4,
       title: 'Portico Structural Framing',
       category: 'Construction',
-      location: 'Chennai, Tamil Nadu',
+      location: 'Tirunelveli, Tamil Nadu',
       image: '/user_project_2.jpg',
       description: 'Laying concrete slabs, column reinforcements, and scaffolding setups for the high-end main portico entrance.'
     },
@@ -44,7 +44,7 @@ export default function Projects() {
       id: 5,
       title: 'Concrete Columns & Framing',
       category: 'Construction',
-      location: 'Chennai, Tamil Nadu',
+      location: 'Ovari, Tamil Nadu',
       image: '/user_project_3.jpg',
       description: 'Setting up structural columns and casting the double-height slab for high strength and load resistance.'
     },
@@ -52,7 +52,7 @@ export default function Projects() {
       id: 6,
       title: 'Multi-Story Brickwork & Columns',
       category: 'Construction',
-      location: 'Chennai, Tamil Nadu',
+      location: 'Nagercoil, Tamil Nadu',
       image: '/user_project_4.jpg',
       description: 'Erecting steel scaffolding and coordinating delivery of building materials on-site during heavy structure plastering.'
     },
@@ -60,7 +60,7 @@ export default function Projects() {
       id: 7,
       title: 'Double Height Ceiling Framing',
       category: 'Construction',
-      location: 'Chennai, Tamil Nadu',
+      location: 'Madurai, Tamil Nadu',
       image: '/user_project_7.jpg',
       description: 'Structural framing of the second-story front balcony and glass staircase tower support.'
     }
