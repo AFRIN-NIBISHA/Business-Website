@@ -70,7 +70,7 @@ export default function About() {
             </div>
             
             <p className="text-text-base opacity-90 leading-relaxed text-lg">
-              Under the expert leadership of Mr. Franklin, who brings **25+ years of solid contracting experience**, our firm has successfully completed **over 100+ building projects** across Tamil Nadu. We specialize in taking projects from initial architectural sketches up to the final key handover.
+              Under the expert leadership of Mr. Franklin, who brings 25+ years of solid contracting experience, our firm has successfully completed over 100+ building projects across Tamil Nadu. We specialize in taking projects from initial architectural sketches up to the final key handover.
             </p>
 
             <p className="text-text-mut leading-relaxed text-sm">
